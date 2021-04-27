@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+
+body {
+	background: #FAFAFA;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+a {
+	text-decoration: none;
+	color: #2F80ED;
+	cursor: pointer;
+	outline: none;
+}
+
+::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; 
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 2px;
+  background-color: #ABB0BB;
+}
+
+::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px; 
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
